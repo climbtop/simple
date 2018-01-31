@@ -1,6 +1,5 @@
 package simple;
 
-import com.afocus.framework.util.file.FileUtil;
 
 public class AI {
 
@@ -10,7 +9,7 @@ public class AI {
 				for(char c = 'a'; c<='z'; c++){
 					for(char d = 'a'; d<='z'; d++){
 						if( check(b) && check(d)){
-							FileUtil.write
+							FileUtil.w
 							System.out.println(a+""+b+""+c+""+d);
 						}
 					}

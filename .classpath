@@ -20,5 +20,6 @@
 	<classpathentry kind="lib" path="lib/afocus-1.0.0.jar"/>
 	<classpathentry kind="lib" path="lib/mybatis-generator-core-1.3.9.1.jar"/>
 	<classpathentry kind="lib" path="lib/mybatis-generator-maven-plugin-1.3.9.1.jar"/>
+	<classpathentry kind="lib" path="lib/httpsession.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
