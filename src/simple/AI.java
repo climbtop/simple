@@ -1,5 +1,6 @@
 package simple;
 
+import com.common.FileUtil;
 
 public class AI {
 
@@ -8,8 +9,8 @@ public class AI {
 			for(char b = 'a'; b<='z'; b++){
 				for(char c = 'a'; c<='z'; c++){
 					for(char d = 'a'; d<='z'; d++){
-						if( check(b) && check(d)){
-							FileUtil.w
+						if( !check(a) && check(b) && !check(c) && check(d)){
+							FileUtil.writeFile("d:/list.txt", a+""+b+""+c+""+d);
 							System.out.println(a+""+b+""+c+""+d);
 						}
 					}
